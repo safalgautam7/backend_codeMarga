@@ -1,12 +1,11 @@
 from django.contrib import admin
-from .models import Category, Problem
+from .models import Problem, Category
 
-@admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('name', 'description')
+    list_display = ('name',)  # Only display the 'name' field for the category
 
-@admin.register(Problem)
 class ProblemAdmin(admin.ModelAdmin):
-    list_display = ('title', 'category', 'difficulty', 'created_at')
-    search_fields = ('title', 'description')
-    list_filter = ('difficulty', 'category')
+    list_display = ('title', 'difficulty', 'category',)  # Ensure 'created_at' is not here if it doesn't exist
+
+admin.site.register(Category, CategoryAdmin)
+admin.site.register(Problem, ProblemAdmin)

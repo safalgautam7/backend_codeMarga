@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+Pipfile.lock
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+/static/
+/media/
+*/migrations/*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.swp

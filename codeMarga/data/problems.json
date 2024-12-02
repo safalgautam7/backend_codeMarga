@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Two Sum",
+        "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.",
+        "difficulty": "Beginner",
+        "constraints": "1 <= nums.length <= 10^5",
+        "example_input": "[2, 7, 11, 15], target=9",
+        "example_output": "[0, 1]",
+        "category": "Array"
+    },
+    {
+        "title": "Reverse a Linked List",
+        "description": "Reverse a singly linked list.",
+        "difficulty": "Intermediate",
+        "constraints": "1 <= list.length <= 10^4",
+        "example_input": "[1, 2, 3, 4, 5]",
+        "example_output": "[5, 4, 3, 2, 1]",
+        "category": "Linked List"
+    },
+    {
+        "title": "Longest Palindromic Substring",
+        "description": "Given a string, find the longest palindromic substring.",
+        "difficulty": "Advanced",
+        "constraints": "1 <= s.length <= 1000",
+        "example_input": "\"babad\"",
+        "example_output": "\"bab\" or \"aba\"",
+        "category": "String"
+    }
+]
